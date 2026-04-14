@@ -11,6 +11,9 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.nav .menu{
+    display: none;
+}
 .nav .name {
     display: flex;
     align-items: center;
@@ -24,4 +27,16 @@ body{
     text-decoration: none;
     color: black;
     cursor: pointer;
+}
+/* responsive mobile */
+@media screen and (max-width:576px) {
+    body{
+        margin: 20px;
+    }
+    .nav .link{
+        display: none;
+    }
+    .nav .menu{
+        display: block;
+    }
 }
