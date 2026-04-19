@@ -1,32 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
-
 * {
     font-family: "Mulish", sans-serif;
 }
-
 /* shared styles */
 h1 {
     margin: 0;
 }
-
 .section-title {
     font-size: 40px;
     font-weight: 800;
     margin: 0;
     margin-bottom: 24px;
 }
-
 .section-des {
     font-size: 16px;
     color: #5a5a5d;
 }
-
 .sec-center {
     text-align: center;
     max-width: 643px;
     margin: 0 auto;
 }
-
 .btn-primary {
     font-size: 20px;
     font-weight: 800;
@@ -36,39 +30,35 @@ h1 {
     padding: 13px 34px;
     border: none;
 }
-
 /* body styles */
-body {
-    margin: 50px 130px;
+main,
+header {
+    margin-top: 50px;
+    margin-right: 130px;
+    margin-left: 130px;
 }
-
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .nav .menu {
     display: none;
 }
-
-.nav .name {
+.name {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
-
 .nav .link {
     display: flex;
     gap: 44px;
 }
-
 .nav a {
     text-decoration: none;
     color: black;
     cursor: pointer;
 }
-
 /* banner styles */
 .banner {
     height: 500px;
@@ -79,7 +69,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
-
 .banner-content {
     display: flex;
     flex-direction: column;
@@ -88,19 +77,16 @@ body {
     padding: 70px 185px;
     text-align: center;
 }
-
 .banner .title {
     font-size: 4rem;
     font-weight: 800;
     margin-bottom: 24px;
 }
-
 .banner .description {
     font-size: 16;
     max-width: 676px;
     margin-bottom: 48px;
 }
-
 .banner .find {
     display: flex;
     gap: 16px;
@@ -108,7 +94,6 @@ body {
     background: rgba(255, 255, 255, 0.3);
     border-radius: 8px;
 }
-
 .banner .find input,
 .banner .find button,
 .banner .find select {
@@ -118,28 +103,23 @@ body {
     width: 142px;
     color: rgba(19, 19, 24, 0.5);
 }
-
 .banner .find button {
     background-color: #ff5400;
     color: white;
 }
-
 /* popular section styles */
 .popular {
     display: flex;
     margin-top: 100px;
     gap: 50px;
 }
-
 .popular button {
     margin-top: 32px;
 }
-
 /* destination section styles */
 .destination {
     margin-top: 60px;
 }
-
 .destination .first,
 .second,
 .third {
@@ -147,7 +127,6 @@ body {
     font-size: 28px;
     font-weight: 800;
 }
-
 .first .fr,
 .third .tr {
     height: 300px;
@@ -156,103 +135,85 @@ body {
     justify-content: center;
     margin: 0;
 }
-
 .first .fr {
     width: 573px;
 }
-
 .destination .second .se {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 286px;
 }
-
 .destination .first {
     display: flex;
     gap: 24px;
 }
-
 .destination .second {
     display: grid;
     grid-template-columns: 374px 474px 274px;
     gap: 24px;
     margin: 24px 0px;
 }
-
 .destination .third {
     display: grid;
     grid-template-columns: 473px 673px;
     gap: 24px;
 }
-
 .destination h3 {
     margin: 0;
 }
-
 .maldives {
     background-image: url(../Images/maldives.png);
     background-repeat: no-repeat;
     text-align: center;
     background-position: center;
 }
-
 .indonesia {
     background-image: url(../Images/indonesia.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .srilanka {
     background-image: url(../Images/srilanka.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .namerica {
     background-image: url(../Images/north-america.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .kashmir {
     background-image: url(../Images/kashmir.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .bangladesh {
     background-image: url(../Images/bangladesh.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .bandarban {
     background-image: url(../Images/bandarban.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-
 /* why section styles */
 .why {
     margin-top: 80px;
 }
-
 .why h5 {
     font-size: 24px;
     font-weight: 800;
 }
-
 .why .hotel-service-container {
     display: flex;
     gap: 24px;
     margin-bottom: 24px;
 }
-
 .why .section-des {
     max-width: 486px;
 }
-
 .why .why-title-des {
     margin-bottom: 30px;
     display: flex;
@@ -260,37 +221,31 @@ body {
     align-items: center;
     text-align: center;
 }
-
 .why .service,
 .why .hotel {
     padding: 32px;
 }
-
 .why .center {
 
     display: flex;
     justify-content: center;
 }
-
 .why .center .center-content {
     background: rgba(233, 68, 68, 0.07);
     border: 1px solid rgba(233, 68, 68, 0.2);
     border-radius: 16px;
     padding: 32px;
 }
-
 .why .hotel {
     background: rgba(251, 181, 99, 0.07);
     border: 1px solid rgba(251, 181, 99, 0.2);
     border-radius: 16px;
 }
-
 .why .service {
     background: rgba(41, 206, 246, 0.07);
     border: 1px solid rgba(41, 206, 246, 0.2);
     border-radius: 16px;
 }
-
 /* newsletter section styles */
 .newsletter {
     margin-top: 100px;
@@ -298,23 +253,19 @@ body {
     gap: 24px;
     max-height: 422px;
 }
-
 .newsletter .content {
     border: 1px solid #FF5400;
     border-radius: 16px;
     padding: 40px;
 }
-
 .newsletter .title {
     font-size: 24px;
     font-weight: 800;
 }
-
 .newsletter hr {
     border: 1px solid rgba(19, 19, 24, 0.1);
     margin-bottom: 24px;
 }
-
 .newsletter input {
     background: rgba(19, 19, 24, 0.1);
     border-radius: 8px;
@@ -323,95 +274,97 @@ body {
     border: none;
     margin-bottom: 16px;
 }
-
 .newsletter .btn-primary {
     width: 100%;
 }
-
 .newsletter .badge {
-
     background: #FF5400;
     border-radius: 16px;
     transform: rotate(-19.63deg);
-    position: relative;
-    top: -205px;
-    translate: 270px;
+    translate: 270px -205px;
     color: white;
     padding: 35px 45px;
     text-align: center;
     width: 300px;
 }
-
 .badge .text {
     font-size: 24px;
     margin: 0;
 }
-
 .badge .save {
     font-size: 32px;
     font-weight: 800;
     margin: 0;
 }
+/* footer section styles */
+footer {
+    margin-top: 100px;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 80px 280px;
+}
+footer .name {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+footer hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+footer .social img {
+    margin-top: 30px;
+    margin-right: 10px;
+}
 
 /* responsive mobile */
 @media screen and (max-width:600px) {
-    body {
+    main,
+    header {
         margin: 20px;
     }
-
     .nav .link {
         display: none;
     }
-
     .nav .menu {
         display: block;
     }
-
     .banner .title {
         font-size: 22px;
     }
-
     .banner-content {
         padding: 32px 24px;
     }
-
     .banner .find {
         flex-direction: column;
     }
-
     .banner .find input {
         width: 245px;
     }
-
     .banner .find button,
     .banner .find select {
         width: 277px;
     }
-
     .banner .description {
         margin-top: 8px;
         margin-bottom: 32px;
     }
-
     .popular {
         flex-direction: column;
         margin-top: 24px;
         gap: 24px;
     }
-
     .popular button {
         margin: 0;
     }
-
     .popular img {
         width: 100%;
     }
-
     .section-title {
         font-size: 20px;
         margin: 0 auto;
     }
-
     .first .fr,
     .third .tr {
         height: 220px;
@@ -420,7 +373,6 @@ body {
         background-size: cover;
         background-position: center;
     }
-
     .second .se {
         height: 220px;
         width: 100%;
@@ -428,66 +380,65 @@ body {
         background-size: cover;
         background-position: center;
     }
-
     .destination .second .se {
         display: flex;
         align-items: center;
         justify-content: center;
 
     }
-
     .destination .first {
         flex-direction: column;
         gap: 16px;
     }
-
     .destination .second {
         grid-template-columns: 1fr;
         gap: 16px;
         border-radius: 16px;
     }
-
     .destination .third {
 
         grid-template-columns: 1fr;
         gap: 16px;
     }
-
     .why .hotel-service-container {
         flex-direction: column;
     }
-
     .why {
         margin-top: 20px;
     }
-
     .why .why-title-des {
         margin-bottom: 0;
     }
-
     .why h5 {
         font-size: 20px;
     }
-
     .newsletter {
         flex-direction: column;
+        max-height: none;         
     }
-
     .newsletter .img-container img {
         width: 100%;
     }
-
     .newsletter .badge .text {
         font-size: 16px;
     }
-
     .newsletter .badge .save {
         font-size: 22px;
     }
-
-    .newsletter .badge {
-        top: -165px;
-        translate: 165px;
-        width: 180px;
+    .newsletter .img-container {
+        position: relative;
     }
+    .newsletter .badge {
+        position: absolute;
+        bottom: -170px;
+        right: 280px;
+        width: 180px;
+        padding: 20px 15px;
+    }
+    footer {
+        margin-top: 10px;
+        margin: 0;
+        padding: 30px 40px;
+    }
+
 }
